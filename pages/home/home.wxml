@@ -1,0 +1,58 @@
+<view class="container">
+  <view id="header" class="full-rotate">
+    <text style="font-size: 80rpx">这个网站将会\n</text>
+    <text style="font-size: 70rpx">自毁</text>
+    <text style="font-size: 60rpx">(在 {{countDownSecond}} 秒之后)</text>
+  </view>
+  <view id="message" class="note full-rotate border border-primary" >
+    <view wx:if="{{letterInfo===''}}">
+      <text>Hi,\n</text>
+      <text>我是一个网站。我很快就会离开，这没关系。\n</text>
+      <text>你可以使用下面的表格给我发消息。 如果我24小时没有收到消息，我就会永久自毁，所有东西都会从我的数据库中删除。\n</text>
+      <text>不过没关系。\n</text>
+      <text>在那之前，让我知道你是如何做的。其他人将能够读到你写的东西，但你的名字或身份不会被附加到任何东西上，所以请随意说出你的想法。\n</text>
+      <text>这是一个艰难的几个月。\n</text>
+      <text>With love,\n</text>
+      <text>treeHole(dot)site\n</text>
+      <text>P.S. 我相信一个没有入侵性广告和在线跟踪的互联网。\n</text>
+    </view>
+    <view class="have-info" wx:else>
+      <text>{{letterInfo}}\n</text>
+      <text style="float: right">💖 : {{likeNum}} , Gets : {{getNum}}\n</text>
+      <text>\n</text>
+    </view>
+  </view>
+  <view wx:if="{{openFeelingDown}}" id="feeling-down" class="note full-rotate border"><p>一切都好吗？</p>
+    <text>如果你或你认识的人正在挣扎，你并不孤单。这里有许多支持服务可以提供帮助。 \n</text>
+    <text>如果您在美国，请考虑联系<a href="https://www.nami.org/help">国家安全局
+      精神疾病联盟帮助热线</a>。\n</text>
+    <text>如果您在英国，<a href="https://www.themix.org.uk/get-support">The Mix</a>在这里。
+      来帮助您解决您所面临的任何挑战。请在网上、社交媒体上或通过他们的免费和
+      保密帮助热线：\n</text>
+    <text>如果您在欧洲其他国家读到这篇文章，<a href="https://mhe-sme.org/library/youth-helplines/">欧洲心理健康</a>已编制了贵国的帮助热线和其他资源清单。\n</text>
+    <text>更多的资源，请访问这个<a href="http://www.tumblr.com/docs/en/counseling_prevention_resources">心理咨询 预防资源</a>页面，以获取可能提供帮助的服务列表。
+      \n</text>
+  </view>
+
+  <view id="message-controls" class="note full-rotate border center">
+    <text class="paper-btn note" bindtap="getLetter">阅读一份消息</text>
+    <text class="paper-btn note" bindtap="like" wx:if="{{likeSend}}">💖</text>
+    <text class="paper-btn note" bindtap="changeFeelingDown" wx:if="{{!openFeelingDown}}">感到沮丧?</text>
+  </view>
+
+  <view id="share" class="note full-rotate border center"><text>我已经呆了 {{existsTimeArr.year}} 年, {{existsTimeArr.month}} 月,
+    {{existsTimeArr.day}} 日, {{existsTimeArr.hour}} 小时, {{existsTimeArr.minute}} 分钟,
+    和 {{existsTimeArr.second}} 秒.\n</text>
+    <text>请考虑把我分享给朋友们，这样我就可以在这里多呆一会儿。</text>
+  </view>
+
+  <view id="footer" class="note full-rotate border center"><p>A site by <a href="">@Luo</a>
+  </p>
+    <text><a href="privacy">隐私政策</a></text></view>
+
+  <view id="source" class="note full-rotate border center">
+    <text>创意来源\n</text>
+    <text>https://www.thiswebsitewillselfdestruct.com</text>
+  </view>
+
+</view>
