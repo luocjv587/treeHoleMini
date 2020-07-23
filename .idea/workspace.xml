@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce6c7812-c544-46f5-8060-e3ce072154a5" name="Default Changelist" comment="" />
+    <list default="true" id="ce6c7812-c544-46f5-8060-e3ce072154a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +42,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,11 +54,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595482753215</updated>
-      <workItem from="1595482755038" duration="1791000" />
+      <workItem from="1595482755038" duration="3613000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="673" y="291" width="584" height="522" key="find.popup" timestamp="1595485799199">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="673" y="291" width="584" height="522" key="find.popup/0.23.1920.1057/1920.23.1680.1027@0.23.1920.1057" timestamp="1595485799199" />
   </component>
 </project>

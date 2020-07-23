@@ -1,13 +1,30 @@
 {
-  "miniprogramRoot": "./dist",
-  "projectname": "treeHoleMini",
-  "description": "树洞",
-  "appid": "touristappid",
-  "setting": {
-    "urlCheck": true,
-    "es6": false,
-    "postcss": false,
-    "minified": false
-  },
-  "compileType": "miniprogram"
+	"miniprogramRoot": "dist/",
+	"projectname": "treeHoleMini",
+	"description": "树洞",
+	"appid": "wx888bde382c4d35c4",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"enhance": true
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
 }
