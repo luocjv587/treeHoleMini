@@ -1,13 +1,12 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/privacy/privacy"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Closing 树洞",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",

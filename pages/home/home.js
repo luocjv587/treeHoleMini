@@ -217,5 +217,15 @@ Page({
     this.setData({
       openFeelingDown : true
     })
-  }
+  },
+  setLetterInfo:function(e){
+    this.setData({
+      sendLetterInfo:e.detail.value
+    })
+  },
+  bindViewTap: function() {
+    wx.navigateTo({
+      url: '../privacy/privacy'
+    })
+  },
 })
