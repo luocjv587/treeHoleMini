@@ -176,7 +176,12 @@ Page({
       },
       success (result) {
         that.setData({
-          openSend:false
+          openSend:false,
+          letterInfo:"Hi, \n您的投递我们已收到。\n其他人将能够读到您写的东西，但您的名字或身份不会被附加到任何东西上。\n感谢您，我又可以多呆一会了～",
+          likeSend:false,
+        })
+        wx.pageScrollTo({
+          scrollTop: 0
         })
       }
     })
