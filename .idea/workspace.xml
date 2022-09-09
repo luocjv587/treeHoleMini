@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce6c7812-c544-46f5-8060-e3ce072154a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +40,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages/home" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,21 +59,36 @@
       <option name="presentableId" value="Default" />
       <updated>1595482753215</updated>
       <workItem from="1595482755038" duration="17630000" />
-      <workItem from="1595555022720" duration="6061000" />
+      <workItem from="1595555022720" duration="6343000" />
+      <workItem from="1595574730245" duration="2392000" />
+      <workItem from="1595814781740" duration="911000" />
+      <workItem from="1595900081841" duration="543000" />
+      <workItem from="1596518876335" duration="911000" />
+      <workItem from="1626080883955" duration="3059000" />
+      <workItem from="1627031824814" duration="343000" />
+      <workItem from="1627477125465" duration="547000" />
+      <workItem from="1627904546961" duration="2176000" />
+      <workItem from="1629253707496" duration="2495000" />
+      <workItem from="1629439154966" duration="599000" />
+      <workItem from="1630061880619" duration="129000" />
+      <workItem from="1631075644141" duration="541000" />
+      <workItem from="1635148612828" duration="1760000" />
+      <workItem from="1662696958188" duration="2507000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="673" y="291" width="584" height="522" key="find.popup" timestamp="1595559751451">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state x="673" y="291" width="584" height="522" key="find.popup/0.23.1920.1057/1920.23.1680.1027@0.23.1920.1057" timestamp="1595559751451" />
-    <state x="630" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1595555847970">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state x="630" y="259" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/1920.23.1680.1027@0.23.1920.1057" timestamp="1595555847970" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/home/home.js</url>
+          <line>228</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

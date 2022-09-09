@@ -1,7 +1,7 @@
 Page({
   data(){
     return {
-      backUrl: "https://treehole.luochenjie.com",
+      backUrl: "https://treehole.zecrs.com",
       countDownSecond: 80000,
       startTime: "2020-07-14",
       existsTimeArr: {
@@ -31,7 +31,7 @@ Page({
   },
   setDefault(){
     this.setData({
-      backUrl: "https://treehole.luochenjie.com",
+      backUrl: "https://treehole.zecrs.com",
       countDownSecond: 80000,
       startTime: "2020-07-14",
       existsTimeArr: {
@@ -114,9 +114,9 @@ Page({
         'content-type': 'application/json' // 默认值
       },
       success (res) {
-        console.log(res.data.data.seconds)
+        console.log(res.data.data)
         that.setData({
-          countDownSecond:res.data.data.seconds
+          countDownSecond:res.data.data
         })
       }
     })
@@ -144,10 +144,10 @@ Page({
       },
       success (result) {
         that.setData({
-          letterInfo:result.data.data.letter_info,
-          currentLetterId:result.data.data.id,
-          likeNum:result.data.data.like,
-          getNum:result.data.data.get,
+          letterInfo:result.data.data[0].letterInfo,
+          currentLetterId:result.data.data[0].id,
+          likeNum:result.data.data[0].likeCount,
+          getNum:result.data.data[0].getCount,
           likeSend:true
         })
         // window.scrollTo(0, 0)
@@ -168,7 +168,7 @@ Page({
     await wx.request({
       url: this.data.backUrl + '/createLetter',
       data: {
-        letter_info: this.data.sendLetterInfo,
+        letterInfo: this.data.sendLetterInfo,
       },
       method:"POST",
       header: {
@@ -200,14 +200,14 @@ Page({
     await wx.request({
       url: this.data.backUrl + '/likeLetter',
       data: {
-        letter_id: this.data.currentLetterId
+        letterId: this.data.currentLetterId
       },
       method:"POST",
       header: {
         'content-type': 'application/json' // 默认值
       },
       success (result) {
-        if (result.data.code === "1") {
+        if (result.data.success === true) {
           that.setData({
             likeNum: that.data.likeNum += 1,
             likeSend: false
